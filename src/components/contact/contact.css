@@ -1,0 +1,98 @@
+.container.contact__container {
+  width: 58%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 58%;
+      grid-template-columns: 30% 58%;
+  gap: 10%;
+}
+
+.contact__options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact__options .contact__option {
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.contact__options .contact__option:hover {
+  background-color: transparent;
+  border-color: var(--color-primary-variant);
+}
+
+.contact__options .contact__option .contact__option-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact__options .contact__option a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.2rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid var(--color-primary-variant);
+  resize: none;
+  color: var(--color-white);
+}
+
+form ::-webkit-input-placeholder {
+  color: var(--color-light);
+}
+
+form :-ms-input-placeholder {
+  color: var(--color-light);
+}
+
+form ::-ms-input-placeholder {
+  color: var(--color-light);
+}
+
+form ::placeholder {
+  color: var(--color-light);
+}
+
+@media (max-width: 1024px) {
+  .container.contact__container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container.contact__container {
+    width: var(--container-width-sm);
+  }
+}
+/*# sourceMappingURL=contact.css.map */
