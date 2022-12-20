@@ -1,9 +1,9 @@
-import IMG1 from "../assets/Project1.jpg";
-import IMG2 from "../assets/Project2.jpg";
-import IMG3 from "../assets/Project3.jpg";
-import IMG4 from "../assets/Project4.jpg";
-import IMG5 from "../assets/Project5.jpg";
-import IMG6 from "../assets/Project6.jpg";
+import IMG1 from "../assets/Project1.png";
+import IMG2 from "../assets/Project2.png";
+import IMG3 from "../assets/Project3.png";
+import IMG4 from "../assets/Project4.png";
+import IMG5 from "../assets/Project5.png";
+import IMG6 from "../assets/Project6.png";
 import IMG7 from "../assets/project7.jpg";
 
 const dataArray = [
