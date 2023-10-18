@@ -1,5 +1,5 @@
 header {
-  padding-top: 7rem;
+  padding-top: 5rem;
   overflow: hidden;
   height: 100vh;
 }
@@ -56,9 +56,22 @@ header {
   height: 30rem;
   position: absolute;
   left: calc(50% - 11rem);
+  top: -10%;
   margin-top: 4rem;
   border-radius: 12rem 0 12rem 0;
-  padding: 1.5rem 0em 0rem 0rem;
+  padding: 1.5rem 0em 1.5rem 0rem;
+}
+
+.me__bg {
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--color-primary)), to(transparent));
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 4rem;
+  border-radius: 12rem 0 12rem 0;
+  padding: 1.5rem 0em 1.5rem 0rem;
 }
 
 .scroll__down {
